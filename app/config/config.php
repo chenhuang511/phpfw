@@ -33,7 +33,7 @@ return new \Phalcon\Config(array(
         'baseUrl' => 'http://localhost:8090/' // web
     ),
     "media" => array(
-        'dir' => 'E:\\0-SDS\\5-phpfw\\public',
+        'dir' => 'D:\\0-SDS\\phpfw\\public',
         "host" => "http://localhost:8090/" // web
     )
 ));

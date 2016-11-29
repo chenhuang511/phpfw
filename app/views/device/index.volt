@@ -2,7 +2,15 @@
     <div class="col-lg-12">
         <section class="panel">
             <header class="panel-heading head-border">
-                Custom Table
+                <div>Devices</div>
+                <div>
+                    <button class="btn btn-success" type="submit"
+                            onclick="modal.showform('/device/new', {}, 'Create new device')">Create new device
+                    </button>
+                    <form class="search-content" action="index.html" method="post">
+                        <input class="form-control" name="keyword" placeholder="Search..." type="text">
+                    </form>
+                </div>
             </header>
             <table class="table table-striped custom-table table-hover">
                 <thead>

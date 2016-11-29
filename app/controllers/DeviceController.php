@@ -64,7 +64,7 @@ class DeviceController extends ControllerBase
      */
     public function newAction()
     {
-
+        $this->view->setRenderLevel(\Phalcon\Mvc\View::LEVEL_ACTION_VIEW);
     }
 
     /**
